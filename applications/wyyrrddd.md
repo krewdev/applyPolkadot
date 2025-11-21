@@ -317,7 +317,8 @@ wyyrrddd has a working frontend MVP demonstrating core concepts:
 | 0d. | Article | Article explaining how wyyrrddd's transparent auction system democratizes content discovery on Polkadot |
 | 1. | Token Contracts on Asset Hub | Deploy custom ink! contracts for LIKE, LOVE, CARE, and CREEP tokens on Polkadot Asset Hub with: (1) Standard token transfer functionality, (2) Minting capabilities for initial distribution, (3) Balance querying interfaces, (4) Approval mechanisms for spending |
 | 2. | Reach Auction Smart Contract | Implement and deploy ink! contract that will: (1) Handle reach auction bidding logic, (2) Track current top bid per post, (3) Process token spending for reach boosting, (4) Calculate feed ranking based on auction bids, (5) Enable post registration with on-chain metadata anchoring |
-| 3. | Polkadot.js Integration | Complete wallet integration that will: (1) Connect to Polkadot.js extension seamlessly, (2) Query token balances from Asset Hub, (3) Sign transactions for reach auction bids, (4) Handle transaction status updates and confirmations, (5) Support multiple wallet accounts |
+| 3. | DAO Data Marketplace Smart Contract | Implement and deploy ink! contract for data sovereignty that will: (1) Handle opt-in/opt-out for data selling, (2) Process anonymized behavioral data submissions, (3) Track DAO earnings per user, (4) Distribute revenue (90% to users, 10% to protocol), (5) Enable USDC payouts for DAO earnings |
+| 4. | Polkadot.js Integration | Complete wallet integration that will: (1) Connect to Polkadot.js extension seamlessly, (2) Query token balances from Asset Hub, (3) Sign transactions for reach auction bids, (4) Handle transaction status updates and confirmations, (5) Support multiple wallet accounts |
 
 ### Milestone 2: Content Storage & Feed Aggregation ($3,500, 1.25 months)
 
