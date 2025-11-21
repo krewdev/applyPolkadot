@@ -261,7 +261,14 @@ Building sealevel studios involved deep blockchain integration and required the 
 
 ### Current Implementation
 
-wyyrrddd has a working frontend MVP demonstrating core concepts:
+wyyrrddd has a working frontend MVP demonstrating core concepts.
+
+**MVP Repository/Deployment:**
+- Interactive Simulator: [applications/assets/wyyrrddd-simulator.html](./assets/wyyrrddd-simulator.html) (standalone HTML demo demonstrating core features)
+- GitHub Repository: [https://github.com/krewdev/wyyrrddd](https://github.com/krewdev/wyyrrddd) (full React implementation)
+- Live Demo: [https://wyyrrddd-ks8tuohoj-battlesol.vercel.app](https://wyyrrddd-ks8tuohoj-battlesol.vercel.app) (deployed version)
+
+The MVP includes both a standalone HTML simulator (for quick demonstration) and the complete React frontend implementation with all components described below.
 
 **Completed Features:**
 - React Feed component with post display and reach auction system
