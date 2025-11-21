@@ -156,14 +156,15 @@ Working MVP demonstrates:
 - Active state indicators with cyberpunk styling
 - Bottom navigation bar with icons
 
-**Radar Component:**
-- GEO-spatial scanning interface with animated radar visualization
-- Geolocation-based target detection using browser location APIs
-- NFC tag detection simulation (ready for hardware integration)
-- AI-powered location analysis via Gemini service (analyzeSurroundings)
-- Token reward system (GEO targets: 50 CARE tokens, NFC targets: 25 CARE tokens)
-- Visual scanning animation with rotating rings and scan lines
-- Reward claiming mechanism with token distribution
+**Radar Component (Frontend Prototype):**
+- GEO-spatial scanning interface with animated radar visualization (UI complete)
+- Geolocation-based target detection UI (browser location APIs integrated, mock data)
+- NFC tag detection simulation UI (ready for hardware integration)
+- AI-powered location analysis UI (Gemini service analyzeSurroundings integrated, returns mock analysis)
+- Frontend token reward display (mock rewards: GEO targets: 50 CARE tokens, NFC targets: 25 CARE tokens)
+- Visual scanning animation with rotating rings and scan lines (fully functional)
+- Reward claiming UI with mock token distribution (frontend-only, no on-chain integration yet)
+- **Note**: Full blockchain integration with smart contracts and actual token rewards is planned for Milestone 2
 
 ### Limitations
 
@@ -304,9 +305,9 @@ wyyrrddd has a working frontend MVP demonstrating core concepts:
 
 - **Estimated Duration:** 2.5 months
 - **Full-Time Equivalent (FTE):** 1.5
-- **Total Costs:** $10,000 USD
+- **Total Costs:** $7,000 USD
 
-### Milestone 1: On-Chain Auction System & Token Contracts ($5,000, 1.25 months)
+### Milestone 1: On-Chain Auction System & Token Contracts ($3,500, 1.25 months)
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -318,7 +319,7 @@ wyyrrddd has a working frontend MVP demonstrating core concepts:
 | 2. | Reach Auction Smart Contract | Implement and deploy ink! contract that will: (1) Handle reach auction bidding logic, (2) Track current top bid per post, (3) Process token spending for reach boosting, (4) Calculate feed ranking based on auction bids, (5) Enable post registration with on-chain metadata anchoring |
 | 3. | Polkadot.js Integration | Complete wallet integration that will: (1) Connect to Polkadot.js extension seamlessly, (2) Query token balances from Asset Hub, (3) Sign transactions for reach auction bids, (4) Handle transaction status updates and confirmations, (5) Support multiple wallet accounts |
 
-### Milestone 2: Content Storage & Feed Aggregation ($5,000, 1.25 months)
+### Milestone 2: Content Storage & Feed Aggregation ($3,500, 1.25 months)
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
@@ -328,22 +329,22 @@ wyyrrddd has a working frontend MVP demonstrating core concepts:
 | 0d. | Demo Video | Comprehensive demonstration video showcasing reach auction mechanics, token spending, and feed ranking |
 | 1. | IPFS Content Storage | Implement decentralized storage that will: (1) Upload images to IPFS via NFT.Storage, (2) Store post metadata with IPFS hash, (3) Anchor content hashes on-chain via smart contract, (4) Enable content retrieval by IPFS hash, (5) Handle content verification |
 | 2. | Feed Aggregation Service | Develop feed ranking system that will: (1) Query all posts from smart contract, (2) Calculate ranking based on reach auction bids and engagement metrics, (3) Integrate AI content generation (Gemini) for discovery, (4) Handle pagination for large feed, (5) Cache feed state for performance optimization, (6) Aggregate user tapestry levels from engagement data |
-| 3. | Radar Feature Implementation | Build GEO-spatial discovery interface that will: (1) Integrate browser geolocation APIs for location-based scanning, (2) Implement NFC tag detection using Web NFC API, (3) Connect to Gemini AI for environmental analysis (analyzeSurroundings), (4) Deploy smart contract logic for CARE token rewards (GEO: 50, NFC: 25), (5) Create animated scanning visualization with rotating radar rings, (6) Handle reward claiming and token distribution, (7) Enable location-based target registration for businesses/creators |
+| 3. | Radar Feature - Blockchain Integration | Complete blockchain integration for the existing Radar frontend prototype: (1) Deploy smart contract logic for CARE token rewards (GEO: 50, NFC: 25) on Polkadot Asset Hub, (2) Implement on-chain reward claiming and token distribution via Polkadot.js transactions, (3) Connect existing frontend UI to smart contract for real token rewards (replacing mock rewards), (4) Enable location-based target registration for businesses/creators with on-chain metadata storage, (5) Integrate smart contract verification for geolocation and NFC tag detections, (6) Add transaction signing and confirmation handling for reward claims. Note: Frontend UI with animations, Gemini AI integration, and browser APIs is already complete from MVP. |
 | 4. | Enhanced UI/UX & Data Sovereignty | Improve user experience with: (1) Real-time auction bid updates, (2) Transaction status notifications, (3) Optimized mobile responsive design, (4) Onboarding flow for new users, (5) Post analytics dashboard showing reach metrics, (6) Data sovereignty dashboard showing DAO earnings, (7) USDC balance integration and display, (8) Enhanced engagement animations and feedback |
 
 ### 💰 Budget Breakdown
 
-**Milestone 1 ($5,000):**
-- Smart Contract Development (Tokens + Auction + Engagement): $2,000 (67 hours @ $30/hour)
-- DAO Data Marketplace Smart Contract: $1,000 (33 hours @ $30/hour)
-- Polkadot.js Integration (including USDC): $1,500 (50 hours @ $30/hour)
-- Testing & Documentation: $500 (17 hours @ $30/hour)
+**Milestone 1 ($3,500):**
+- Smart Contract Development (Tokens + Auction + Engagement): $1,500 (50 hours @ $30/hour)
+- DAO Data Marketplace Smart Contract: $800 (27 hours @ $30/hour)
+- Polkadot.js Integration (including USDC): $900 (30 hours @ $30/hour)
+- Testing & Documentation: $300 (10 hours @ $30/hour)
 
-**Milestone 2 ($5,000):**
-- IPFS Integration: $1,000 (33 hours @ $30/hour)
-- Feed Aggregation Service: $1,250 (42 hours @ $30/hour)
-- Radar Feature Implementation (GEO-spatial + NFC): $1,500 (50 hours @ $30/hour)
-- UI/UX Enhancement (including data sovereignty): $1,250 (42 hours @ $30/hour)
+**Milestone 2 ($3,500):**
+- IPFS Integration: $800 (27 hours @ $30/hour)
+- Feed Aggregation Service: $1,000 (33 hours @ $30/hour)
+- Radar Feature - Blockchain Integration: $1,200 (40 hours @ $30/hour)
+- UI/UX Enhancement (including data sovereignty): $500 (17 hours @ $30/hour)
 
 ## 🔮 Future Plans
 
