@@ -1,3 +1,34 @@
+# 📢📢 November 3rd, 2025 - **ANNOUNCEMENT** 📢📢
+
+We would like to inform everyone that the Fast Grants Bounty **is now closing its application intake**. 
+
+Given the current volume of proposals under review and ongoing project deliveries, we’ll be focusing our efforts on evaluating and supporting the existing applicants. 
+All proposals submitted before this announcement will still be reviewed and assessed as planned. 
+
+At this stage, we have received a significant number of submissions, with multiple projects already in active development, and it’s important we ensure timely evaluations, clear communication, and responsible use of the remaining budget.
+
+In the coming days, the curators will:
+
+- Review and clean up the existing applicant list 🧹
+- Prioritise deliverables and pending milestone submissions 🚢
+- Prepare a summary update of current progress and next steps 🗒️
+
+We’d like to thank everyone who has submitted proposals or supported this initiative so far.
+
+
+
+**Once the current round concludes, we’ll reassess the program’s continuation and share updates accordingly.**
+
+
+
+
+
+------------------------------------------------------------
+
+
+
+
+
 # 💰 Polkadot Fast-Grants Programme 💰<!-- omit in toc -->
 
 - [Introduction](#introduction)
